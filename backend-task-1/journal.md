@@ -1,0 +1,12 @@
+- Pulling Postgresql docker image
+- Trying to start a docker container
+- Computer had a fucking stroke
+- Decided to do project with Node instead of Django because I hate myself
+- Started Nodejs setup
+- Got a gitignore file
+- Swore at roommate due to wifi problems 
+- Installed Apollo server and graphql
+- Installing postgresql locally
+- Setting up database maindb and initiailizing user and all that stuff
+- Store db credentials in .env file (Not really best practice to push db credentials to github repo I know, but IDGAF rn)
+- 
