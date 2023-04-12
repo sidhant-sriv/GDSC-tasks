@@ -1,3 +1,4 @@
+### This is basically a log to keep track of things during the project. Stuff like decisions made, problems faced, solutions, my rapidly declining sanity etc.
 - Pulling Postgresql docker image
 - Trying to start a docker container
 - Computer had a fucking stroke
@@ -9,4 +10,9 @@
 - Installing postgresql locally
 - Setting up database maindb and initiailizing user and all that stuff
 - Store db credentials in .env file (Not really best practice to push db credentials to github repo I know, but IDGAF rn)
-- 
+- Waste time on selecting programming playlist (Kendrick FTW)
+- The structure of a "post" will be kinda like twitter, Title and body. Will try to figure out how to use S3 buckets to use images, audio etc.
+- Defining queries and mutations for the posts (without using Prisma rn)
+- Made basic feed query that basically returns all the posts from an array
+- Made a mutation called create that adds post to the afforementioned list
+
