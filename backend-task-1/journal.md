@@ -15,4 +15,7 @@
 - Defining queries and mutations for the posts (without using Prisma rn)
 - Made basic feed query that basically returns all the posts from an array
 - Made a mutation called create that adds post to the afforementioned list
+- Adding Prisma
+- Also I should separate all the resolvers and shit into separate files, best practices and shit. UGHH I'll do it later
+- Sort of finished setup for prisma
 
