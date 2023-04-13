@@ -30,3 +30,8 @@
 - CRUD operations have been implemented with JWT implementation
 - Okay wtf, I was testing the queries and suddenly I can't see mutations anywhere
 - (For some reason chrome decided to go full on retard mode so) now I'm using firefox for testing
+- (Okay I am also a retard but we'll ignore that.)
+- The things is done. So its basically an API for a twitter like web application that uses postgresql db.
+- I will dockerize for deployment later
+- FML, there is so much work to do. I have the machine learning task. I have to add reminder feature to the discord bot, also make the thing start working again.
+- (I also have 3 DAs that I am completely ignoring at the moment even though the deadline is in like 3 days)
