@@ -1,15 +1,17 @@
 type Query {
-    feed: [Post!]!
-    info: String!
+  feed: [Post!]!
+  info: String!
 }
 
 type Mutation {
-    create(title: String!, body: String!) : Post!
+  create(title: String!, body: String!): Post!
+  update(id: ID!, title: String!, body: String!): Post!
+  delete(id: ID!): Post!
 }
 
 type Post {
-    id: ID!
-    title: String!
-    body: String!
+  id: ID!
+  title: String!
+  body: String!
+  createdAt: String!
 }
-

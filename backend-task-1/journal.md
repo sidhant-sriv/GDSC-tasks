@@ -18,4 +18,10 @@
 - Adding Prisma
 - Also I should separate all the resolvers and shit into separate files, best practices and shit. UGHH I'll do it later
 - Sort of finished setup for prisma
+- Converting from array db to actual postgres db
+- Adding Update and Delete resolvers but there some invalid context error
+- Apparently when you pass id as an argument, prisma is too dumb to understand that it's a number so I had to use parseInt to fix the problem. No biggie
+- CRUD operations complete (more or less)
+- Still procrastinating on putting resolvers in separate files
+- I should start with Authentication now. Currently in DSA lab, she's explaining linked lists. Battery at 40%, don't know if it'll go till the end of SOOP lab.
 
