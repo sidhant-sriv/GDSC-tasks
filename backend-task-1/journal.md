@@ -1,0 +1,37 @@
+### This is basically a log to keep track of things during the project. Stuff like decisions made, problems faced, solutions, my rapidly declining sanity etc.
+- Pulling Postgresql docker image
+- Trying to start a docker container
+- (Computer had a fucking stroke)
+- Decided to do project with Node instead of Django (because I hate myself)
+- Started Nodejs setup
+- Got a gitignore file
+- (Swore at roommate due to wifi problems )
+- Installed Apollo server and graphql
+- Installing postgresql locally
+- Setting up database maindb and initiailizing user and all that stuff
+- Store db credentials in .env file (Not really best practice to push db credentials to github repo I know, but IDGAF rn)
+- (Waste time on selecting programming playlist) (Kendrick FTW)
+- The structure of a "post" will be kinda like twitter, Title and body. Will try to figure out how to use S3 buckets to use images, audio etc.
+- Defining queries and mutations for the posts (without using Prisma rn)
+- Made basic feed query that basically returns all the posts from an array
+- Made a mutation called create that adds post to the afforementioned list
+- Adding Prisma
+- Also I should separate all the resolvers and shit into separate files, best practices and shit. (UGHH I'll do it later)
+- Sort of finished setup for prisma
+- Converting from array db to actual postgres db
+- Adding Update and Delete resolvers but there some invalid context error
+- Apparently when you pass id as an argument, prisma is too dumb to understand that it's a number so I had to use parseInt to fix the problem. No biggie
+- CRUD operations complete (more or less)
+- Still procrastinating on putting resolvers in separate files
+- I should start with Authentication now. Currently in DSA lab, she's explaining linked lists. Battery at 40%, don't know if it'll go till the end of SOOP lab.
+- Adding signup and login mutations. Creating user type and linking it to the post type. Updating both schemas.
+- Updating mutations and queries so that they check for the JWT. (This shit is confusing AF) (I am facing the consequences of my actions)
+- Also yes, JWT because who the hell likes sessions (I don't know, I'm so tired I'm saying bullshit)
+- CRUD operations have been implemented with JWT implementation
+- Okay wtf, I was testing the queries and suddenly I can't see mutations anywhere
+- (For some reason chrome decided to go full on retard mode so) now I'm using firefox for testing
+- (Okay I am also a retard but we'll ignore that.)
+- The things is done. So its basically an API for a twitter like web application that uses postgresql db.
+- I will dockerize for deployment later
+- FML, there is so much work to do. I have the machine learning task. I have to add reminder feature to the discord bot, also make the thing start working again.
+- (I also have 3 DAs that I am completely ignoring at the moment even though the deadline is in like 3 days)
